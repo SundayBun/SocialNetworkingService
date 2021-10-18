@@ -12,11 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * возвращает объект, ловящий ошибку аторизации
- * возвращающий DTO об ошибке и код
- * 401(когда пользователь булет пытаться войти без авторизации)
- */
 
 @Component
 public class JWTAuthenticationEntryPoint implements AuthenticationEntryPoint {

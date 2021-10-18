@@ -2,9 +2,6 @@ package com.example.socialNetwork.demo.payload.response;
 
 import lombok.Getter;
 
-/**
- * DTO object for Invalid Authentication
- */
 
 @Getter
 public class InvalidLoginResponse {

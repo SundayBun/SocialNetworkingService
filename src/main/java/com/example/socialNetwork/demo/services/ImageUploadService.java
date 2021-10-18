@@ -64,7 +64,6 @@ public class ImageUploadService {
 
         ImageModel imageModel = new ImageModel();
         imageModel.setPostId(post.getId());
-       // imageModel.setImageBytes(file.getBytes());
         imageModel.setImageBytes(compressBytes(file.getBytes()));
         imageModel.setName(file.getOriginalFilename());
         LOG.info("Uploading image to Post {}", post.getId());

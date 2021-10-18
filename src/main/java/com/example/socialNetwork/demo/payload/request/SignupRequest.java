@@ -9,9 +9,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-/**
- * DTO object for Signup page
- */
 
 @Data
 @PasswordMatches

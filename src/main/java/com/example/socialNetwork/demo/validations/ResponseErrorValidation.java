@@ -12,9 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-/**
- * сервис для контроллера, для валидации любых ошибок
- */
 @Service
 public class ResponseErrorValidation {
 

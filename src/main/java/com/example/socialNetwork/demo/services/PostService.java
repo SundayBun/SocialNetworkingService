@@ -22,8 +22,6 @@ import java.util.Optional;
 public class PostService {
     public static final Logger LOG = LoggerFactory.getLogger(PostService.class);
 
-    // Principal нужен для того, чтобы авторизованный юзер мог удалить/изменить только свои данные
-
     private final PostRepository postRepository;
     private final UserRepository userRepository;
     private final ImageRepository imageRepository;

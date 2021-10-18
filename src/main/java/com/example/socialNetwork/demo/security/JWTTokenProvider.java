@@ -12,9 +12,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *сервисный класс создания токена, валидации и извлечения UserId From Token
- */
 
 
 @Component

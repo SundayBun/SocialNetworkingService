@@ -4,9 +4,6 @@ import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
 
-/**
- * DTO object for Login page
- */
 @Data
 public class LoginRequest {
 
